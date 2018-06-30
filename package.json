@@ -1,0 +1,17 @@
+{
+  "name": "wch-pug",
+  "version": "0.0.1",
+  "main": "js/index",
+  "scripts": {
+    "build": "coffee-build src -o js",
+    "prepublishOnly": "prepv -i || true"
+  },
+  "dependencies": {
+    "pug2lua": "aleclarson/pug2lua#0.3.0",
+    "wch": "^0.8.0"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.2.3",
+    "wch-coffee": "*"
+  }
+}
